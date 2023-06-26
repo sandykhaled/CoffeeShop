@@ -1,0 +1,39 @@
+.container-background{
+    background-image: url(../imgs/background.jfif);
+    
+    height: 350px;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+  
+}
+
+.background-overlay
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(228, 218, 208, 0.936);
+    z-index: 1;
+    
+    
+}
+.background-item
+{
+    float:left;
+    margin:130px;
+    text-align: center;
+    color: #311C10;
+    font-weight: bold;
+}
+.background-items
+{
+    overflow: hidden;
+}
+.background-item i{
+    font-size: 50px;
+}
+.background-item p{
+    font-size: 20px;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+}

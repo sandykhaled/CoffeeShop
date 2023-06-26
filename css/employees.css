@@ -1,0 +1,121 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.employees
+{
+    height: 100vh;
+    width: 100%;
+    
+}
+.employees-container
+{
+    
+    overflow: hidden;
+}
+.employees-content
+{
+    margin: auto;
+    width: 80%;
+}
+.employee
+{
+    position: relative;
+    width: 30%;
+    float:left;
+    padding:20px;
+    margin-left: 45px;
+    
+}
+.employee .employee-overlay
+{
+    position: absolute;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    width:80%;
+    text-align: center;
+    background-color: rgba(213, 202, 202, 0.941);
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s;
+}
+.employee:hover .employee-overlay
+{
+    visibility: visible;
+    opacity:1;
+}
+
+.employee-overlay .overlay-items
+{
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    width: 80%;
+}
+.overlay-items a{
+    display: inline-block;
+    width:40px;
+    height: 40px;
+    background-color: #ffffff;
+    color: #311C10;
+    position: relative;
+    top:15px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s ;
+    transition-delay: .6s;
+}
+.overlay-items .name
+{   
+    color:#311C10;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 5px;
+    position: relative;
+    top: 15px;
+    opacity: 0;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    visibility: hidden;
+    transition: 1s ;
+    transition-delay: 0;
+}
+.overlay-items .job{
+    color:#311C10;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    text-transform: capitalize;
+    position: relative;
+    opacity: 0;
+    visibility: hidden;
+    margin-bottom: 20px;
+}
+.employee:hover .overlay-items a,
+.employee:hover .overlay-items .name,
+.employee:hover .overlay-items .job
+{
+    opacity: 1;
+    visibility: visible;
+    top:0;
+}
+.overlay-items a i{
+    line-height: 40px;
+}
+.employee-header
+{
+    color: #311C10;
+    text-align: center;
+    padding-top:80px ;
+    font-size: 40px;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+}

@@ -1,0 +1,97 @@
+
+.service {
+    background-color: #f9f9f9;
+   
+}
+.service-item{
+    width:50%;
+    float:left;
+
+}
+.clear {
+    clear: both;
+}
+.service-item .section-header{
+    text-align:left;
+    padding: 40px;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+   
+}
+.service-item .section-header .section-title
+{
+    font-size: 60px;
+    color: #311C10;
+    
+}
+.service-item .section-header .choice-line{
+    margin: 0 0 45px 0;
+    color: #311C10;
+    width: 300px;
+    height: 4px;
+    margin-left: 20px;
+    margin-top: 5px;
+   
+}
+.service-item-desc{
+    padding-right: 20px;
+    color:#311C10;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -40px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+.service-list {
+    list-style: none;
+}
+.service-list li i {
+    
+    color: #311C10;
+    padding: 5px;
+   margin-left: 30px;
+    font-size: 30px;
+   
+}
+.service-list li{
+    margin-bottom: 13px;
+    color: #311C10;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    font-size: 30px;
+}
+.klo {
+    width: 480px;
+    height: 400px;
+}
+.service-bullets{
+    list-style: none;
+    text-align: center;
+    margin-right: 130px;
+    
+}
+.service-bullets li{
+    width:30px;
+    height:30px;
+    display: inline-block;
+    background-color: #a8a8a8;
+    margin: 10px 15px;
+    border-radius: 50%;
+}
+.service-bullets li.active{
+    background-color: #ce6e33;
+}
+.service-bullets li:hover{
+    background-color:  #ce6e33;
+}
+.choice-line
+{
+    background-color:  #311C10;
+    height: 5px;
+    width: 300px;
+     margin-left:750px; 
+}

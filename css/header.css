@@ -1,0 +1,68 @@
+
+.main-header
+{
+    height: 50px;
+    width: 100%;
+    background-color:#F4E7D9;
+    top: 0;
+    right: 0;
+    position:relative;
+    position: fixed;
+    z-index: 1;
+}
+.main-header-logo-img
+{
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-left: 120px;
+
+}
+.main-header-list
+{
+    float:right;
+    margin-right: 120px;
+    list-style-type: none;
+    
+}
+.main-header-list li
+{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Reem Kufi Fun', sans-serif;
+font-family: 'Shadows Into Light', cursive;
+color:#311C10;
+
+
+}
+.Underline-main
+{
+    height: 3px;
+    width: 100%;
+    background-color: #311C10;
+    
+    
+    
+}
+.Underline-main
+{
+    height: 3px;
+    width: 100%;
+    background-color: #311C10;
+
+    
+}
+.main-header-list li a 
+{
+    color: #311C10;
+    font-size: 20px;
+    text-decoration: none;
+
+
+}
+.main-header-list li .head-main:hover{
+  border-bottom: 4px solid #311C10;
+  transition: 0.5s;
+}

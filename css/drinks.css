@@ -1,0 +1,87 @@
+.drinks
+{
+    height: 100vh;
+    width: 100%;
+}
+.drinks-content{
+   padding:120px;
+}
+.drinks-items
+{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+}
+.drinks-item
+{
+    width: 30%;
+    text-align: center;
+    background-color:#F4E7D9;
+    padding: 20px;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    color: #311C10;
+    text-transform: capitalize;
+    float: left;
+    position: relative;
+   
+}
+.item-overlay::after
+{
+    content: "";
+    transition: 1s;
+    opacity: 0;
+    top:0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    position: absolute;
+    background-color: #311C10; 
+}
+.item-overlay:hover::after
+{
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+}
+.icons
+{
+    margin: 10px;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #311C10;
+}
+.drinks-item a
+{
+    text-decoration: none;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #ce6e33;
+}
+.item-2
+{
+    margin: 0 5%;
+}
+.drink-head
+{
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #311C10;
+    text-align: center;
+    font-size: 50px;
+
+}
+.drink-line
+{
+    background-color:  #311C10;
+    height: 5px;
+    width: 170px;
+    margin: auto;
+}

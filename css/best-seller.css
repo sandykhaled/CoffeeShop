@@ -1,0 +1,152 @@
+
+.best-seller
+{
+    width: 100%;
+    height: 100vh;
+    background-color:#F4E7D9;
+}
+.best-seller-line
+{
+    background-color:  #311C10;
+    height: 5px;
+    width: 350px;
+    margin: auto;
+}
+.bset-seller-headding
+{
+    color: #311C10;
+    text-align: center;
+    padding-top:100px ;
+    font-size: 40px;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    
+}
+.best-seller-element-1
+{
+    float:left;
+    height: 300px;
+    width: 250px;
+    border:3px solid #311C10;
+    border-radius: 20px;
+    margin: 80px 80px 80px 150px;
+    text-align: center;
+    color: #311C10;
+    padding-top: 30px;
+    text-transform: capitalize;
+    position: relative;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+    float: left;
+}
+.best-seller-element-2
+{
+    float:left;
+    height: 300px;
+    width: 250px;
+    margin: 80px ;
+    border:3px solid #311C10;
+    border-radius: 20px;
+    float: left;
+    text-align: center;
+    color: #311C10;
+    padding-top: 30px;
+    text-transform: capitalize;
+    position: relative;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+}
+.best-seller-element-3
+{
+    float:left;
+    height: 300px;
+    width: 250px;
+    margin: 80px ;
+    border:3px solid #311C10;
+    border-radius: 20px;
+    float: left;
+    text-align: center;
+    color: #311C10;
+    padding-top: 30px;
+    text-transform: capitalize;
+    position: relative;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+}
+.best-seller-para
+{
+    margin-top: 10px;
+
+}
+.best-seller-link-1
+{
+    color: #ce6e33;
+    text-decoration: none;
+    font-weight: bold;
+   
+    
+}
+
+.best-seller-element-1-after::after
+{
+    content: "";
+    transition: 1s;
+    opacity: 0;
+    top:0;
+    left: 0;
+    height: 0;
+    width: 0;
+    position: absolute;
+    background-color: #311C10;
+}
+.best-seller-element-1-after:hover::after
+{
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    border-radius:20px;
+
+}
+.best-seller-element-2-after::after
+{
+    content: "";
+    transition: 1s;
+    opacity: 0;
+    top:0;
+    left: 0;
+    height: 0;
+    width: 0;
+    position: absolute;
+    background-color: #311C10;
+}
+.best-seller-element-2-after:hover::after
+{
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    border-radius:20px;
+
+}
+.best-seller-element-3-after::after
+{
+    content: "";
+    transition: 1s;
+    opacity: 0;
+    top:0;
+    left: 0;
+    height: 0;
+    width: 0;
+    position: absolute;
+    background-color: #311C10;
+}
+.best-seller-element-3-after:hover::after
+{
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    border-radius:20px;
+
+}

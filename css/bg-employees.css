@@ -1,0 +1,78 @@
+.bg-employee{
+    background-image: url(../imgs/background.jfif);
+    
+    height: 350px;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 200px 0px;
+  
+
+}
+.bg-overlay
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(228, 218, 208, 0.936);
+    
+    
+    
+}
+.bg-circle
+{
+    height:100px ;
+    width: 100px;
+    border-radius: 50px;
+    border:1px solid #311C10 ;
+    float: left;
+    margin-left: 220px;
+    margin-top: 40px;
+  
+   
+    
+   
+}
+.bg-circle img{
+    
+    border-radius: 50px;
+   
+}
+.bg-item
+{
+    float: left;
+    margin-top: 60px;
+   
+   
+}
+.item-content
+{
+    
+    color: #311C10;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    float: left;
+    margin: 30px;
+
+    
+}
+.item-content h1{
+    color: #311C10;
+}
+.item-content p{
+    color: #ce6e33;
+}
+.para .description
+{
+    color: #311C10;
+
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    
+    
+}
+.bg-items
+{
+    overflow:hidden;
+    
+}
